@@ -36,12 +36,8 @@ DAY 2------
 
 
 
+*******DAY 4*****-------
 
-
-
-
-
-DAY 4--------
      -Shows how JavaScript handles tasks that take time (async work)
      -A function getData() is created which gives a Promise
      -Uses setTimeout to wait for 2 seconds (like waiting for data)
@@ -61,3 +57,29 @@ DAY 4--------
      -console.log() displays the final processed data
      -.catch() handles errors if API call fails
      -Shows how to fetch, process, and display API data
+
+      ****FROM API KEYS TO FETCH DATA****
+
+          -Fetch data from API using fetch()
+          -Convert response into JSON using .json()
+          -Extract required array from response
+          -Use filter() to select specific data
+          -Use map() to modify/transform data
+          -Display output using console.log()
+          -Handle errors using .catch()
+
+          Example for CAT FACTS API*********
+
+          fetch → get data
+               ↓
+               convert JSON
+               ↓
+               extract array
+               ↓
+               filter data
+               ↓
+               modify data
+               ↓
+               print result
+               ↓
+               handle errors
