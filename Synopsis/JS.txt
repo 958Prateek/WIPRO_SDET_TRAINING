@@ -49,3 +49,15 @@ DAY 4--------
     - .then() is used to show the result
      - .catch() is used if any error happens
     - Also shows how setTimeout and setInterval work
+
+**FETCHING DATA****
+
+     -Uses fetch() to get data from an API
+     -API returns a Promise
+     -.then() is used to handle the response
+     -res.json() converts API data into JSON format
+     -.filter() is used to select items with even IDs
+     -.map() is used to modify the title by adding a prefix ("Prateek")
+     -console.log() displays the final processed data
+     -.catch() handles errors if API call fails
+     -Shows how to fetch, process, and display API data
