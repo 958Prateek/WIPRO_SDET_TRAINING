@@ -70,3 +70,25 @@ console.log(colors);
 console.log(colors.splice(0, 1));
 console.log(colors.splice(1, 2));
 console.log(colors.splice(1, 3));
+
+const prices = [10, 20, 30, 40]; // tasks: find the total of all elements
+const total = prices.reduce((acc, curr) => { return acc + curr }, 0);
+// 0 + 10 = 10
+// 10 + 20 = 30
+// 30 + 30 = 60
+// 60 + 40 = 100
+console.log(total);
+
+
+const fruitBasket = ['apple', 'banana', 'cherry', 'apple', 'apple', 'banana', 'pineapple']; // apple: 3, banana: 3, cherry: 1, pineapple: 1
+const tally = fruitBasket.reduce((acc, fruit) => {
+    acc[fruit] = (acc[fruit] || 0) + 1;
+    return acc;
+}, {}); // intial value of acc is an empty object
+console.log(tally);
+
+
+// arr -> 1, 3, 4, 5, 6
+const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+console.log(months.splice(2, 3, 'Aaryan')); // Removes "February" and "March"
+console.log(months);

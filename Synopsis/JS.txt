@@ -1,0 +1,51 @@
+DAY 1
+   - String Operations – Used to manipulate text (e.g., concatenation, slicing, formatting).
+  -  Mathematical Operations – Perform arithmetic calculations like addition, subtraction, multiplication, and division.
+   - Logical Operations – Used for decision-making using conditions (AND, OR, NOT).
+   - Functions – Reusable blocks of code that perform a specific task.
+   --Arrays – Collections of elements stored in a single variable.
+----Control Statements -(For Loop, Switch-Case) 
+
+     git init
+     git add .
+     git commit -m "Initial commit"
+     git branch -M main
+     git remote add origin <your-github-repo-link>
+     git push -u origin main
+
+     git add .
+     git commit -m "Your message"
+     git push origin main
+
+DAY 2------
+
+     -Uses template literals (` `) to insert variables using ${}
+     -Demonstrates map() and filter() for working with arrays
+     -Uses Math.random() and Math.floor() to generate random numbers
+     -Shows type casting (String → Number and Number → String)
+     -Uses array methods:
+     -push() → add element at end
+     -pop() → remove element from end
+     -unshift() → add element at beginning
+     -shift() → remove element from beginning
+     -Uses splice() to remove elements from specific index
+     -Uses slice() to get part of an array without changing original
+     -Uses reduce() to count or combine array data
+     -Implements a Login Page using JavaScript
+     -getElementById() to access elements
+
+
+
+
+
+
+
+
+DAY 4--------
+     -Shows how JavaScript handles tasks that take time (async work)
+     -A function getData() is created which gives a Promise
+     -Uses setTimeout to wait for 2 seconds (like waiting for data)
+     -resolve() sends the result → "Data received"
+    - .then() is used to show the result
+     - .catch() is used if any error happens
+    - Also shows how setTimeout and setInterval work
