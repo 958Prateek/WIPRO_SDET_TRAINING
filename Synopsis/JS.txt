@@ -83,3 +83,16 @@ DAY 2------
                print result
                ↓
                handle errors
+
+****** DAY 5 ***********
+
+ **ASYNC ND AWAIT FUNCTIONS**
+
+          -Uses async and await to handle tasks that take time
+          -Uses fetch() to get data from websites/APIs
+          -.json() converts the received data into readable format
+          -.filter() is used to pick only needed data
+          -.map() is used to change or format the data
+          -console.log() shows the final result in the console
+          -Uses array methods to work with API data easily
+          -try...catch handles errors if something goes wrong               
