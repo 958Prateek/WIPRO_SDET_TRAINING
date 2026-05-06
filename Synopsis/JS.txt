@@ -96,3 +96,38 @@ DAY 2------
           -console.log() shows the final result in the console
           -Uses array methods to work with API data easily
           -try...catch handles errors if something goes wrong               
+
+**** OOPs ******
+
+oops is used to organise codes in classes and object...
+
+          1. Class
+              Blueprint/template for creating objects
+
+          2. Object
+              Real instance created from a class
+
+          3. Encapsulation
+              Hiding data and controlling access
+
+          4. Abstraction
+              Hiding internal complexity
+              Showing only important features
+
+          5. Inheritance
+             Child class gets properties/methods of parent class
+
+          6. Polymorphism
+              Same method behaves differently
+
+          7. Constructor
+              Special method called automatically when object is created
+
+          8. Method Overriding
+              Child class changes parent method behavior
+
+          9. this
+              Refers to current object
+
+          10. super()
+              Calls parent class constructor/method
