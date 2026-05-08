@@ -18,6 +18,10 @@ DAY 1
      git push origin main
 
 DAY 2------
+      
+      const -- value will not change
+      let -- value  will change
+
 
      -Uses template literals (` `) to insert variables using ${}
      -Demonstrates map() and filter() for working with arrays
