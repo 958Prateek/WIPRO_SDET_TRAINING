@@ -32,7 +32,7 @@ DAY 2------
      -Uses slice() to get part of an array without changing original
      -Uses reduce() to count or combine array data
      -Implements a Login Page using JavaScript
-     -getElementById() to access elements
+     -getElementById() to access elements by ID
 
 
 
@@ -40,10 +40,15 @@ DAY 2------
 
      -Shows how JavaScript handles tasks that take time (async work)
      -A function getData() is created which gives a Promise
+     - Promise has three Statements
+            Pending, Resolve, reject
+
      -Uses setTimeout to wait for 2 seconds (like waiting for data)
      -resolve() sends the result → "Data received"
-    - .then() is used to show the result
+    - .then() is used to handle the Successfl Promised...runs when promise      
+
      - .catch() is used if any error happens
+     - .filter used to selct some items from an array
     - Also shows how setTimeout and setInterval work
 
 **FETCHING DATA****
@@ -53,10 +58,12 @@ DAY 2------
      -.then() is used to handle the response
      -res.json() converts API data into JSON format
      -.filter() is used to select items with even IDs
-     -.map() is used to modify the title by adding a prefix ("Prateek")
+     -.map() is used  tranform each item into array and to modify the title by adding a prefix ("Prateek")
      -console.log() displays the final processed data
      -.catch() handles errors if API call fails
      -Shows how to fetch, process, and display API data
+     
+     Await - await is used to ...wait until a promie finishes and return its results.
 
       ****FROM API KEYS TO FETCH DATA****
 
