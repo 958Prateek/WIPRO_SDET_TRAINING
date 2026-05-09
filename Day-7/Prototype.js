@@ -7,6 +7,8 @@ console.log(rabbit.hasOwnProperty('carrot'))
 console.log(rabbit.toString())
 
 
+
+// Example 2
 const person = {
     greet: function() {
         console.log("Hello!");
@@ -18,7 +20,7 @@ console.log(student.name);
 student.greet();
 
 
-
+// example 3
 const vehicle = {
     start: function() {
         console.log("Vehicle started");
