@@ -299,3 +299,17 @@ THE FLIGHT BOOKING QUESTIONS
           14. Use setTimeout() with 2000ms delay.
           15. Print processed employee array using:
                console.log()
+
+
+********DAY 7 **************     
+
+          Hositing - JS moves variable and function declarations to the top before running the code.
+
+          Closure -  A function can remember its variable from variables from parent function even after the parent function is finished.
+          Closure = Function + Memory of outer variables.
+
+          Prototype - one object can use properties and functions of another object.... Prototype allows one object to inherit properties and methods from another object.
+
+          example as given in the code ....
+              -rabbit is using properties from animal
+              -animal becomes the prototype of rabbit
