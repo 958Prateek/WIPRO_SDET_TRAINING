@@ -10,3 +10,13 @@ function greatest(a, b, c) {
     }
 }
 console.log(greatest(10, 25, 15));
+
+
+
+
+function greatest(a, b, c) {
+
+    return Math.max(a, b, c);
+}
+
+console.log(greatest(10, 25, 15));
