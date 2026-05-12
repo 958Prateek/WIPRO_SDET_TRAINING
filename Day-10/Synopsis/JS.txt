@@ -1,0 +1,315 @@
+DAY 1
+   - String Operations – Used to manipulate text (e.g., concatenation, slicing, formatting).
+  -  Mathematical Operations – Perform arithmetic calculations like addition, subtraction, multiplication, and division.
+   - Logical Operations – Used for decision-making using conditions (AND, OR, NOT).
+   - Functions – Reusable blocks of code that perform a specific task.
+   --Arrays – Collections of elements stored in a single variable.
+----Control Statements -(For Loop, Switch-Case) 
+
+     git init
+     git add .
+     git commit -m "Initial commit"
+     git branch -M main
+     git remote add origin <your-github-repo-link>
+     git push -u origin main
+
+     git add .
+     git commit -m "Your message"
+     git push origin main
+
+DAY 2------
+      
+      const -- value will not change
+      let -- value  will change
+
+
+     -Uses template literals (` `) to insert variables using ${}
+     -Demonstrates map() and filter() for working with arrays
+     -Uses Math.random() and Math.floor() to generate random numbers
+     -Shows type casting (String → Number and Number → String)
+     -Uses array methods:
+     -push() → add element at end
+     -pop() → remove element from end
+     -unshift() → add element at beginning
+     -shift() → remove element from beginning
+     -Uses splice() to remove elements from specific index
+     -Uses slice() to get part of an array without changing original
+     -Uses reduce() to count or combine array data
+     -Implements a Login Page using JavaScript
+     -getElementById() to access elements by ID
+
+
+
+*******DAY 4*****-------
+
+     -Shows how JavaScript handles tasks that take time (async work)
+     -A function getData() is created which gives a Promise
+     - Promise has three Statements
+            Pending, Resolve, reject
+
+     -Uses setTimeout to wait for 2 seconds (like waiting for data)
+     -resolve() sends the result → "Data received"
+    - .then() is used to handle the Successfl Promised...runs when promise      
+
+     - .catch() is used if any error happens
+     - .filter used to selct some items from an array
+    - Also shows how setTimeout and setInterval work
+
+**FETCHING DATA****
+
+     -Uses fetch() to get data from an API
+     -API returns a Promise
+     -.then() is used to handle the response
+     -res.json() converts API data into JSON format
+     -.filter() is used to select items with even IDs
+     -.map() is used  tranform each item into array and to modify the title by adding a prefix ("Prateek")
+     -console.log() displays the final processed data
+     -.catch() handles errors if API call fails
+     -Shows how to fetch, process, and display API data
+     
+     Await - await is used to ...wait until a promie finishes and return its results.
+
+      ****FROM API KEYS TO FETCH DATA****
+
+          -Fetch data from API using fetch()
+          -Convert response into JSON using .json()
+          -Extract required array from response
+          -Use filter() to select specific data
+          -Use map() to modify/transform data
+          -Display output using console.log()
+          -Handle errors using .catch()
+
+          Example for CAT FACTS API*********
+
+          fetch → get data
+               ↓
+               convert JSON
+               ↓
+               extract array
+               ↓
+               filter data
+               ↓
+               modify data
+               ↓
+               print result
+               ↓
+               handle errors
+
+****** DAY 5 ***********
+
+ **ASYNC ND AWAIT FUNCTIONS**
+
+          -Uses async and await to handle tasks that take time
+          -Uses fetch() to get data from websites/APIs
+          -.json() converts the received data into readable format
+          -.filter() is used to pick only needed data
+          -.map() is used to change or format the data
+          -console.log() shows the final result in the console
+          -Uses array methods to work with API data easily
+          -try...catch handles errors if something goes wrong               
+
+**** OOPs ******
+
+oops is used to organise codes in classes and object...
+
+          1. Class
+              Blueprint/template for creating objects
+
+          2. Object
+              Real instance created from a class
+
+          3. Encapsulation
+              Hiding data and controlling access
+
+          4. Abstraction
+              Hiding internal complexity
+              Showing only important features
+
+          5. Inheritance
+             Child class gets properties/methods of parent class
+
+          6. Polymorphism
+              Same method behaves differently
+
+          7. Constructor
+              Special method called automatically when object is created
+
+          8. Method Overriding
+              Child class changes parent method behavior
+
+          9. this
+              Refers to current object
+
+          10. super()
+              Calls parent class constructor/method
+
+******DAY--6******
+THE FLIGHT BOOKING QUESTIONS
+
+          1. Store raw flight data in an array.
+          2. Use forEach() to loop through each flight string.
+          3. Use split(":") to separate:
+          - route
+          - price
+          4. Convert price string into number using:
+          Number()
+          5. Validate invalid price using:
+               || 0
+               If conversion fails, default value becomes 0.
+          6. Use split("-") to separate:
+               - from city
+               - to city
+
+          7. Create flight object:
+               {
+                    from,
+                    to,
+                    price
+               }
+
+          8. Push objects into new array using:
+          push()
+
+          9. Use filter() to keep flights where:
+          - price >= 100
+          - price <= 500
+
+          10. Use sort():
+          a.price - b.price
+          for ascending order (lowest price first).
+          
+          11. Convert final array into JSON string using:
+          JSON.stringify()
+          12. Print final output using:
+          console.log()
+
+ **The E-Commerce Discount Applicator Qustion   **   
+
+          1. Store cart product data in an array.
+          2. Create callback function:
+          isEligible()
+          3. Check eligibility condition:
+          - category === "Electronics"
+          - price > 200
+
+          4. Create main function:
+          applyPromo(cart, promoCallback)
+          5. Validate cart using:
+               Array.isArray()
+
+          6. Use map() to process each product.
+
+          7. Call callback function:
+                promoCallback(product)
+
+          8. Calculate discount:
+               discount = price * 0.10
+
+          9. Calculate updated price:
+               updatedPrice = price - discount
+
+          10. Add new property:
+               isDiscounted
+
+          11. Count discounted products.
+          12. Calculate total savings.
+          13. Use Template Literal to print summary message.
+          14. Use setTimeout() with 1000ms delay.
+          15. Print updated cart using:
+               console.log()
+
+**    The Movie Stream Analytics Qustion **
+
+          1. Store raw movie data in an array.
+          2. Use forEach() to loop through movie strings.
+          3. Use split("|") to separate:
+          - movie name
+          - genre
+          - views
+
+          4. Convert views into number using:
+          Number()
+
+          5. Validate invalid views using:
+          || 0
+
+          6. Create movie object:
+          {
+               name,
+               genre,
+               views
+          }
+          7. Push movie objects into new array using:
+          push()
+
+          8. Use filter() to keep movies where:
+               - genre is Action OR Sci-Fi
+               - views > 5000
+
+          9. Use sort():
+          b.views - a.views
+              for descending order (highest views first).
+          10. Convert final array into JSON string using:
+              JSON.stringify()
+          11. Print final output using:
+               console.log()
+
+** The Automated Payroll Processor Question **
+
+          1. Store employee data in an array.
+          2. Create callback function:
+            taxLogic()
+
+          3. Check tax condition:
+          - salary > 5000 → 20% tax
+          - otherwise → 10% tax
+
+          4. Create main function:
+          calculatePayroll(employees, taxCallback)
+
+          5. Validate employees array using:
+          Array.isArray()
+
+          6. Use map() to process each employee.
+          7. Call callback function:
+          taxCallback(employee.salary)
+
+          8. Calculate tax:
+          tax = salary * taxRate
+
+          9. Calculate net salary:
+          netSalary = salary - tax
+
+          10. Add total net payout using:
+          += operator
+
+          11. Add employee status:
+          - netSalary > 4000 → Premium
+          - otherwise → Standard
+
+          12. Create updated employee object:
+          {
+               id,
+               name,
+               salary,
+               netSalary,
+               status
+          }
+          13. Use Template Literal to print payroll summary.
+          14. Use setTimeout() with 2000ms delay.
+          15. Print processed employee array using:
+               console.log()
+
+
+********DAY 7 **************     
+
+          Hositing - JS moves variable and function declarations to the top before running the code.
+
+          Closure -  A function can remember its variable from variables from parent function even after the parent function is finished.
+          Closure = Function + Memory of outer variables.
+
+          Prototype - one object can use properties and functions of another object.... Prototype allows one object to inherit properties and methods from another object.
+
+          example as given in the code ....
+              -rabbit is using properties from animal
+              -animal becomes the prototype of rabbit
