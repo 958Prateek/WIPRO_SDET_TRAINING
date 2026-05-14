@@ -313,3 +313,145 @@ THE FLIGHT BOOKING QUESTIONS
           example as given in the code ....
               -rabbit is using properties from animal
               -animal becomes the prototype of rabbit
+
+
+
+
+***Day 10 **********
+
+Expressjs Basics
+      
+      -Express.js is a lightweight backend framework for Node.js.
+         - Used to create:
+               Web servers
+               REST APIs
+               Backend applications
+      -Makes server-side development fast and simple.
+
+Important Express Concepts
+          req → Request object sent by client.
+          res → Response object sent from server.
+          app.get() → Handles GET requests.
+          app.post() → Handles POST requests.
+          app.listen() → Starts server on specified port.
+          res.send() → Sends response to browser/client.      
+
+
+ ******* TYPESCRIPT *********
+
+ TypeScript → A superset of JavaScript that adds types for better error  checking and safer code.
+
+
+ Types → Specify the datatype of variables, functions, or objects.
+
+ Tuples → Array with fixed number and type of values.
+          let student: [string, number] = ["Prateek", 22];
+
+ Utility Types → Special built-in TypeScript types used to transform existing types.
+       type Student = {name:string, age:number};
+       type NewStudent = Partial<Student>;
+
+ Partial → Converts all properties of a type into optional properties.
+         type User = {name:string, age:number};
+
+          let user: Partial<User> = {
+          name: "Prateek"
+          }; // age not compulsory
+
+ Record → Creates an object with fixed key-value types.
+
+ Required → Makes all properties mandatory.
+
+ Pick → Selects only specific properties from a type.
+
+ Exclude → Removes specific values from a type.
+          type Status = "Success" | "Error" | "Loading";
+          type NewStatus = Exclude<Status, "Loading">;         
+
+ Deep Partial → Makes all nested object properties optional recursively.
+          type User = {
+          profile: {
+          name: string;
+          }
+          };
+          let user = {
+          profile: {}
+          };
+
+Generics → Same function works with different datatypes.
+            function show<T>(value:T){
+               return value;
+          }
+               show("Hello");
+               show(100);          
+
+Union Types → Variable can store multiple datatypes.
+
+          let id: string | number;
+          id = 101;
+          id = "EMP101";
+any → The any type is the most flexible type in TypeScript.It essentially tells the compiler to skip type checking for a particular variable.
+
+never → The never type represents the type of values that never occur.
+unknown - The unknown type is a type-safe counterpart of any.  
+
+Enums → Store fixed constant values.
+         enum Role {
+               Admin,
+               User
+          }
+          let person = Role.Admin;
+
+Omit → Removes unwanted properties from a type.
+
+Keyof → Gets all keys of an object type.
+          type User = {
+          name: string;
+          age: number;
+          };
+
+          type Keys = keyof User;
+          // "name" | "age"
+
+Advanced TypeScript:
+
+     keyof → gets object keys
+     typeof → gets type from variable/object
+     never → impossible value, used in exhaustive checking
+     infer → extracts hidden type
+     Template Literal Types:
+     type Margin = `${number}px`
+
+
+
+Type Guard → Checks datatype before using a value.
+          let value: string | number = "Hello";
+
+          if(typeof value === "string"){
+          console.log(value.toUpperCase());
+          }
+
+
+***** DAY 12 ****
+
+ ****PlayWright*******
+
+ Playwright is an open-source automation testing framework,  and Supports Chromium, Firefox, and WebKit browsers.
+ IT Perform end to end testing.
+
+ * Selenium uses WebDriver for browser communication, while Playwright communicates directly with browsers, making execution faster and more reliable.
+
+ **Core Ecocepts
+          page.goto()      → Opens website URL
+          locator()        → Finds element using locator
+          getByRole()      → Finds element using ARIA role
+          click()          → Clicks element
+          fill()           → Enters text into input field
+          expect()         → Validates expected result
+
+Playwright Assertion example ---
+      expect(page.url()).toBe("https://example.com");
+
+Commonly Used Playwright Cmds
+      npm init playwright@latest
+      npx playwright test (filename)      
