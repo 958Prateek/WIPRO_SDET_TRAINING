@@ -1,4 +1,5 @@
-DAY 1
+*****DAY 1*****
+
    - String Operations – Used to manipulate text (e.g., concatenation, slicing, formatting).
   -  Mathematical Operations – Perform arithmetic calculations like addition, subtraction, multiplication, and division.
    - Logical Operations – Used for decision-making using conditions (AND, OR, NOT).
@@ -17,7 +18,7 @@ DAY 1
      git commit -m "Your message"
      git push origin main
 
-DAY 2------
+******DAY 2****------
       
       const -- value will not change
       let -- value  will change
@@ -108,7 +109,7 @@ DAY 2------
           -Uses array methods to work with API data easily
           -try...catch handles errors if something goes wrong               
 
-**** OOPs ******
+******* OOPs ******
 
 oops is used to organise codes in classes and object...
 
@@ -144,6 +145,7 @@ oops is used to organise codes in classes and object...
               Calls parent class constructor/method
 
 ******DAY--6******
+
 THE FLIGHT BOOKING QUESTIONS
 
           1. Store raw flight data in an array.
@@ -254,51 +256,7 @@ THE FLIGHT BOOKING QUESTIONS
           11. Print final output using:
                console.log()
 
-** The Automated Payroll Processor Question **
 
-          1. Store employee data in an array.
-          2. Create callback function:
-            taxLogic()
-
-          3. Check tax condition:
-          - salary > 5000 → 20% tax
-          - otherwise → 10% tax
-
-          4. Create main function:
-          calculatePayroll(employees, taxCallback)
-
-          5. Validate employees array using:
-          Array.isArray()
-
-          6. Use map() to process each employee.
-          7. Call callback function:
-          taxCallback(employee.salary)
-
-          8. Calculate tax:
-          tax = salary * taxRate
-
-          9. Calculate net salary:
-          netSalary = salary - tax
-
-          10. Add total net payout using:
-          += operator
-
-          11. Add employee status:
-          - netSalary > 4000 → Premium
-          - otherwise → Standard
-
-          12. Create updated employee object:
-          {
-               id,
-               name,
-               salary,
-               netSalary,
-               status
-          }
-          13. Use Template Literal to print payroll summary.
-          14. Use setTimeout() with 2000ms delay.
-          15. Print processed employee array using:
-               console.log()
 
 
 ********DAY 7 **************     
@@ -351,12 +309,13 @@ Important Express Concepts
        type Student = {name:string, age:number};
        type NewStudent = Partial<Student>;
 
+
  Partial → Converts all properties of a type into optional properties.
          type User = {name:string, age:number};
-
           let user: Partial<User> = {
           name: "Prateek"
-          }; // age not compulsory
+          }; 
+
 
  Record → Creates an object with fixed key-value types.
 
@@ -390,10 +349,11 @@ Union Types → Variable can store multiple datatypes.
           let id: string | number;
           id = 101;
           id = "EMP101";
+
 any → The any type is the most flexible type in TypeScript.It essentially tells the compiler to skip type checking for a particular variable.
 
 never → The never type represents the type of values that never occur.
-unknown - The unknown type is a type-safe counterpart of any.  
+unknown -> The unknown type is a type-safe counterpart of any.  
 
 Enums → Store fixed constant values.
          enum Role {
@@ -411,7 +371,7 @@ Keyof → Gets all keys of an object type.
           };
 
           type Keys = keyof User;
-          // "name" | "age"
+
 
 Advanced TypeScript:
 
@@ -432,9 +392,9 @@ Type Guard → Checks datatype before using a value.
           }
 
 
-***** DAY 12 ****
+***** DAY 12 *******
 
- ****PlayWright*******
+ ****PlayWright BASICS*******
 
  Playwright is an open-source automation testing framework,  and Supports Chromium, Firefox, and WebKit browsers.
  IT Perform end to end testing.
