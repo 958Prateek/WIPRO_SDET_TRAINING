@@ -423,6 +423,13 @@ Commonly Used Playwright Cmds
 
          JavaScript fetch() API is used to send login credentials (username & password) to the backend server asynchronously.
 
+         npm init playwright@latest
+         npx playwright test 
+         npm i path 
+         npm i dotenv
+         npm i body-parser
+
+
          Core concepts:
 
                FormData() → Collects form input values
@@ -437,3 +444,15 @@ Commonly Used Playwright Cmds
           await username.fill(user);
           await password.fill(pass);
           await btn.click();   
+
+Created a Playwright project using npm init playwright@latest
+Installed required packages: express, path, body-parser, and dotenv
+Created a simple web application using Express.js
+Added static files: index.html, login.html, and login.css
+Configured .env file for storing PORT value
+Built a login form for testing login functionality
+Used JavaScript fetch() API for sending login credentials
+Created reusable Playwright function testLoginForm()
+Used Playwright methods like locator(), fill(), click(), and textContent()
+Performed login testing with valid and invalid credentials
+Executed cross-browser testing in Chromium, Firefox, and WebKit          
