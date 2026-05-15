@@ -415,3 +415,25 @@ Playwright Assertion example ---
 Commonly Used Playwright Cmds
       npm init playwright@latest
       npx playwright test (filename)      
+
+
+******* DAY 13 **********
+
+   TESTING DONE FOR LOGIN Page
+
+         JavaScript fetch() API is used to send login credentials (username & password) to the backend server asynchronously.
+
+         Core concepts:
+
+               FormData() → Collects form input values
+               fetch() → Sends HTTP request to server
+               async/await → Handles asynchronous operations
+               locator() → Finds webpage elements
+               fill() → Enters text into input fields
+               click() → Clicks login button
+               textContent() → Gets response message text   
+
+     PlayWright function example:
+          await username.fill(user);
+          await password.fill(pass);
+          await btn.click();   
