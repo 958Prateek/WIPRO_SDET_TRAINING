@@ -96,7 +96,7 @@
                ↓
                handle errors
 
-****** DAY 5 ***********
+****************************** DAY 5 ***************************************
 
  **ASYNC ND AWAIT FUNCTIONS**
 
@@ -144,7 +144,9 @@ oops is used to organise codes in classes and object...
           10. super()
               Calls parent class constructor/method
 
-******DAY--6******
+
+
+***************************** DAY--6 ************************************
 
 THE FLIGHT BOOKING QUESTIONS
 
@@ -259,7 +261,7 @@ THE FLIGHT BOOKING QUESTIONS
 
 
 
-********DAY 7 **************     
+****************************** DAY 7 *********************************     
 
           Hositing - JS moves variable and function declarations to the top before running the code.
 
@@ -275,7 +277,7 @@ THE FLIGHT BOOKING QUESTIONS
 
 
 
-***Day 10 **********
+**************************** Day 10 *************************************
 
 Expressjs Basics
       
@@ -392,7 +394,7 @@ Type Guard → Checks datatype before using a value.
           }
 
 
-***** DAY 12 *******
+***************************** DAY 12 **************************************
 
  ****PlayWright BASICS*******
 
@@ -417,13 +419,14 @@ Commonly Used Playwright Cmds
       npx playwright test (filename)      
 
 
-******* DAY 13 **********
+
+******************************* DAY 13 ***********************************
 
    TESTING DONE FOR LOGIN Page
 
          JavaScript fetch() API is used to send login credentials (username & password) to the backend server asynchronously.
 
-         npm init playwright@latest
+     
          npx playwright test 
          npm i path 
          npm i dotenv
@@ -455,4 +458,8 @@ Used JavaScript fetch() API for sending login credentials
 Created reusable Playwright function testLoginForm()
 Used Playwright methods like locator(), fill(), click(), and textContent()
 Performed login testing with valid and invalid credentials
-Executed cross-browser testing in Chromium, Firefox, and WebKit          
+Executed cross-browser testing in Chromium, Firefox, and WebKit    
+
+
+
+********************************* DAY 14 ***********************************
