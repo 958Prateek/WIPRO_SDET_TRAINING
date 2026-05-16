@@ -463,3 +463,14 @@ Executed cross-browser testing in Chromium, Firefox, and WebKit
 
 
 ********************************* DAY 14 ***********************************
+
+
+.mjs file is used to create and use ES Modules in JavaScript.
+**using import and export..instead of of require() and module.exports.
+
+For taking SS--
+     **btn.screenshot() → Takes screenshot of a specific element/button and  saves it as an image.
+     **page.screenshot() → Takes screenshot of the complete webpage and saves it as an image.
+
+     --npx playwright test --project=chromium
+
