@@ -474,3 +474,19 @@ For taking SS--
 
      --npx playwright test --project=chromium
 
+
+******************************* DAY 15 **********************************  
+
+Annoations:
+     test.skip() → Used to skip a test temporarily.
+     test.fixme() → Used for broken tests that need fixing.
+     test.fail() → Used when a test is expected to fail.
+     test.step() → Used to divide tests into readable steps.
+     test.slow() → Used to increase timeout for slow tests.
+
+
+npm init playwright@latest
+npx playwright test --ui (run in ui mode)
+npx playwright codegen <url>
+npx playwright test --debug
+
